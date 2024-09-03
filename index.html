@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage 2.0</title>
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <main>
+      <nav>
+        <img width="160px" height="63px" src="./image/cover.png" alt="" />
+        <ul>
+          <li><a href="#"> Home </a></li>
+          <li><a href="#">New </a></li>
+          <li><a href="#"> Popular </a></li>
+          <li><a href="#"> Trending </a></li>
+          <div class="last-one">
+            <li><a href="#"> Categories</a></li>
+          </div>
+        </ul>
+        <img
+          width="45px"
+          height="25px"
+          src="./image/icon-menu.svg"
+          alt=""
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+        />
+      </nav>
+      <!-- TOGGLE MENU BAR -->
+      <div
+        class="offcanvas offcanvas-end w-75"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+        style="background-color: hsl(35, 77%, 62%);"
+      >
+        <div class="offcanvas-header">
+          <h1  id="offcanvasRightLabel">MENU</h1>
+          <button
+            type="button"
+            class="btn-close text-reset display-3"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul>
+            <li>
+              <a href="#"><i class="fas fa-home"></i> Home </a>
+            </li>
+            <li>
+              <a href="#"><i class="far fa-star"></i> New</a>
+            </li>
+            <li>
+              <a href="#"><i class="far fa-heart"></i>Popular</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-gripfire"></i>Trending</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-cogs"></i>Categories</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Main CONTENT -->
+      <div class="content">
+        <div class="content1">
+          <img src="./image/image-web-3-desktop.jpg" alt="" />
+          <img src="./image/image-web-3-mobile.jpg" alt="" />
+          <div class="words">
+            <div class="ech">
+              <h1>The Bright Future of Web 3.0?</h1>
+            </div>
+            <div class="readmore">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+                <br />
+                <button><b>READ MORE</b></button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content2">
+          <div class="new">
+            <h1>New</h1>
+            <br />
+            <h3>Hydrogen VS Electric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            <br />
+            <h3>The Downsides of AI Artistry</h3>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+            <br />
+            <h3>Is VC Funding Drying Up?</h3>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="last-part">
+        <div class="pcs">
+          <img src="./image/image-retro-pcs.jpg" alt="retro-pcs" />
+          <div class="page1">
+            <b>01</b><br />
+            <strong>Reviving Retro PCs</strong> <br />
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="bin">
+          <img src="./image/image-top-laptops.jpg" alt="top laptops" />
+          <div class="page2">
+            <b>02</b><br />
+            <strong>Top 10 Laptops of 2022</strong><br />
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="game">
+          <img src="./image/image-gaming-growth.jpg" alt="" />
+          <div class="page3">
+            <b>03</b><br />
+            <strong>The Growth of Gaming</strong><br />
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+    </main>
+  </body>
+</html>
