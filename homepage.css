@@ -278,7 +278,7 @@ main {
     line-height: 30px;
   }
   .content2 {
-    height: 590px;
+    height: 595px;
     width: 100%;
   }
   .new {
@@ -335,18 +335,25 @@ main {
     cursor: text;
     margin-bottom: 25px;
   }
-
+  .page1{
+    width: 70%;
+  }
   .bin {
     width: 100%;
     transition: none;
     cursor: text;
     margin-bottom: 25px;
   }
-
+  .page2{
+    width: 70%;
+  }
   .game {
     transition: none;
     cursor: text;
     width: 100%;
+  }
+  .page3{
+    width: 70%;
   }
 .offcanvas-header h1{
 font-size: 37px;
