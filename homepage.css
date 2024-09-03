@@ -278,11 +278,12 @@ main {
     line-height: 30px;
   }
   .content2 {
-    height: 610px;
+    height: 630px;
     width: 100%;
   }
   .new {
     padding: 32px 20px;
+    
   }
   .new h1 {
     margin-bottom: 12px;
@@ -300,6 +301,9 @@ main {
     margin-bottom: 20px;
     padding-bottom: 30px;
   }
+  #pin{
+    border: none;
+  }
   .readmore button {
     margin-top: 29px;
     width: 50%;
@@ -309,7 +313,7 @@ main {
   .last-part {
     transition: none;
     display: block;
-    margin-top: 1230px;
+    margin-top: 1290px;
     margin-bottom: 80px;
   }
   .last-part img {
